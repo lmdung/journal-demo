@@ -1,0 +1,23 @@
+{
+  "name": "journal-demo",
+  "version": "1.0.0",
+  "description": "just a demo web by boostrap html css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmdung/journal-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmdung/journal-demo/issues"
+  },
+  "homepage": "https://github.com/lmdung/journal-demo#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "live-server": "^1.2.1"
+  }
+}
