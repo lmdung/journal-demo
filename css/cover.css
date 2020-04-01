@@ -5,6 +5,7 @@
     background: url('../img/hero-bg.jpg') center;
     background-size: cover;
     position: relative;
+    margin-bottom: 60px;
   }
   #cover h1 {
     color: #fff;

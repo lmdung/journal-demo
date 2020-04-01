@@ -1,0 +1,64 @@
+  
+ /*  section what we do */
+ .section-header {
+    padding-bottom: 20px;
+  }
+  .section-header h3 {
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .section-header h3::before {
+    content: '';
+    height: 1px;
+    width: 120px;
+    background: #ddd;
+    position: absolute;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  .section-header h3::after {
+      content: '';
+      height: 3px;
+      width: 40px;
+      background: #3498db;
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 20px);
+  }
+  .card-icon {
+    padding: 30px 20px;
+    transition: all 0.3s;
+  }
+  .card-icon h4 a {
+    color: black;
+    transition: all 0.3s;
+  }
+  .card-icon h4 a:hover {
+    color: #5faee3;
+    text-decoration: none;
+  }
+  .card-icon:hover h4 a {
+    color: #5faee3;
+  }
+  .card-icon:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  .card-icon .icon-box {
+     background: #eaf4fb;
+     height: 64px;
+     width: 64px;
+     border-radius: 50px;
+     margin-bottom: 20px;
+  }
+  .card-icon .icon-box i {
+    color: #3498db;   
+  }
+ .card-icon h4 {
+   font-weight: 700;
+ }
+ .card-icon p {
+    font-size: 14px;
+  }
