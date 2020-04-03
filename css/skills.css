@@ -1,0 +1,17 @@
+.skills .progress {
+    height: 50px;
+    display: block;
+    background: none;
+}
+.skills .progress .skill {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 6px;
+}
+.skills .progress .skill .val {
+    float: right;
+}
+.skills .progress .progress-bar {
+    height: 10px;
+    background-color: #3498db;
+}
