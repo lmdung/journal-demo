@@ -1,0 +1,91 @@
+.list-portfolio ul li a {
+    transition: 0.3s;
+    margin-right: 10px;
+    font-size: 12px !important;
+    padding: 10px 20px !important;
+}
+.list-portfolio .active{
+    background-color: #3498db !important;
+}
+.list-portfolio ul li a:hover {
+     background-color: #3498db;
+     color: #fff !important;
+}
+
+.portfolio-container {
+    padding-top: 40px;
+}
+.portfolio-warp {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+.portfolio-warp:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.portfolio-warp figure {
+    position: relative;
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+}
+.portfolio-warp figure a {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #384046;
+    position: absolute;
+}
+.portfolio-warp figure .link-preview {
+    top: calc(50% - 18px);
+    left: calc(50% - 28px);
+    font-size: 12px;
+    opacity: 0;
+}
+.portfolio-warp figure .link-details {
+    top: calc(50% - 18px);
+    right: calc(50% - 28px);
+    font-size: 12px;
+    opacity: 0;
+}
+.portfolio-warp figure:hover img {
+    opacity: 0.4;
+    transition: .4s;
+}
+.portfolio-warp figure:hover .link-preview{
+    opacity: 1;
+    top: calc(50% - 18px);
+    left: calc(50% - 45px);
+    transition: .4s;
+}
+.portfolio-warp figure:hover .link-details {
+    top: calc(50% - 18px);
+    right: calc(50% - 45px);
+    opacity: 1;
+    transition: .4s;
+}
+
+.portfolio-infor h4 {
+    font-size: 18px;
+    line-height: 1px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+}
+.portfolio-infor h4 a {
+    color: #333;
+    transition: .3s;
+}
+.portfolio-infor h4 a:hover {
+    color: #3498db ;
+}
+.portfolio-infor p {
+    color: #b8b8b8;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+

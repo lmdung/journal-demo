@@ -1,0 +1,35 @@
+#services {
+    background-color: #f7fbfe;
+}
+.services .box-service {
+    background-color: #fff;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.services .box-service:hover {
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+}
+.services .box-service:hover h4 {
+    color: #3498db ;
+}
+.services .box-service {
+    padding: 30px;
+    display: block
+}
+.services .service .box-service i {
+    font-size: 40px;
+    color: #3498db;
+    float: left;
+}
+.services .service .box-service p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.services .service .box-service h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
